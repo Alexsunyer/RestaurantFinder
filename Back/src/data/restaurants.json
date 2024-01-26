@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "name": "Tasty Bites",
+    "address": "123 Main Street, Cityville",
+    "tags": ["Italian", "Pasta", "Family-friendly"],
+    "status": "open",
+    "creationDate": "2023-05-10",
+    "openCloseHours": {
+      "breakfast": "8:00 AM - 10:00 AM"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Spice Haven",
+    "address": "456 Spice Lane, Flavortown",
+    "tags": ["Indian", "Spicy", "Vegetarian"],
+    "status": "closed",
+    "creationDate": "2022-08-15",
+    "openCloseHours": {
+      "lunch": "11:30 AM - 3:00 PM",
+      "dinner": "6:00 PM - 9:00 PM"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Sushi Paradise",
+    "address": "789 Sushi Boulevard, Asianville",
+    "tags": ["Japanese", "Sushi", "All-You-Can-Eat"],
+    "status": "open",
+    "creationDate": "2023-02-20",
+    "openCloseHours": {
+      "dinner": "6:30 PM - 10:00 PM"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Burger Haven",
+    "address": "234 Burger Street, Grillsville",
+    "tags": ["American", "Burgers", "Casual"],
+    "status": "open",
+    "creationDate": "2022-12-05",
+    "openCloseHours": {
+      "lunch": "11:00 AM - 2:00 PM",
+      "dinner": "5:00 PM - 8:00 PM"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Mediterranean Delight",
+    "address": "567 Olive Avenue, Cityville",
+    "tags": ["Mediterranean", "Healthy", "Vegetarian"],
+    "status": "closed",
+    "creationDate": "2023-04-03",
+    "openCloseHours": {
+      "lunch": "12:00 PM - 4:00 PM"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Taco Fiesta",
+    "address": "890 Taco Street, Mexicoville",
+    "tags": ["Mexican", "Tacos", "Live Music"],
+    "status": "open",
+    "creationDate": "2022-10-18",
+    "openCloseHours": {
+      "dinner": "6:00 PM - 10:00 PM"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Veggie Haven",
+    "address": "123 Green Lane, Vegitown",
+    "tags": ["Vegetarian", "Healthy", "Organic"],
+    "status": "open",
+    "creationDate": "2023-01-15",
+    "openCloseHours": {
+      "breakfast": "7:00 AM - 9:00 AM",
+      "lunch": "12:00 PM - 2:00 PM",
+      "dinner": "5:00 PM - 7:00 PM"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Pizza Palace",
+    "address": "456 Pepperoni Plaza, Italianville",
+    "tags": ["Pizza", "Italian", "Delivery"],
+    "status": "open",
+    "creationDate": "2022-07-02",
+    "openCloseHours": {
+      "dinner": "3:00 PM - 11:00 PM"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Steak House",
+    "address": "789 Prime Rib Road, Meatropolis",
+    "tags": ["Steak", "Fine Dining", "Wine"],
+    "status": "closed",
+    "creationDate": "2022-11-12",
+    "openCloseHours": {
+      "lunch": "12:00 PM - 4:00 PM",
+      "dinner": "6:30 PM - 10:00 PM"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Noodle Nook",
+    "address": "101 Noodle Avenue, Asianville",
+    "tags": ["Asian", "Noodles", "Vegetarian Options"],
+    "status": "open",
+    "creationDate": "2023-03-25",
+    "openCloseHours": {
+      "lunch": "12:00 PM - 3:00 PM",
+      "dinner": "6:30 PM - 9:30 PM"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Diner Delight",
+    "address": "202 Main Street, Meatropolis",
+    "tags": ["American", "Diner", "Breakfast"],
+    "status": "closed",
+    "creationDate": "2022-09-08",
+    "openCloseHours": {
+      "lunch": "12:00 PM - 4:00 PM",
+      "dinner": "7:00 PM - 9:00 PM"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Fish & Chips Cove",
+    "address": "303 Seafood Street, Britland",
+    "tags": ["British", "Fish & Chips", "Pub"],
+    "status": "open",
+    "creationDate": "2023-06-05",
+    "openCloseHours": {
+      "lunch": "12:00 PM - 3:00 PM",
+      "dinner": "5:00 PM - 8:00 PM"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Healthy Haven",
+    "address": "404 Wellness Road, Fitcity",
+    "tags": ["Healthy", "Smoothies", "Salads"],
+    "status": "open",
+    "creationDate": "2022-12-20",
+    "openCloseHours": {
+      "breakfast": "8:00 AM - 10:00 AM",
+      "lunch": "12:30 PM - 3:30 PM",
+      "dinner": "5:00 PM - 6:00 PM"
+    }
+  },
+  {
+    "id": 14,
+    "name": "BBQ Boulevard",
+    "address": "505 Smokehouse Street, Grilltown",
+    "tags": ["Barbecue", "Ribs", "Outdoor Seating"],
+    "status": "closed",
+    "creationDate": "2023-01-02",
+    "openCloseHours": {
+      "lunch": "12:30 PM - 3:30 PM"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Cafe Caramel",
+    "address": "606 Coffee Lane, Brewville",
+    "tags": ["Cafe", "Coffee", "Desserts"],
+    "status": "open",
+    "creationDate": "2022-10-10",
+    "openCloseHours": {
+      "breakfast": "7:00 AM - 10:00 AM",
+      "lunch": "12:00 PM - 3:00 PM",
+      "dinner": "6:00 PM - 8:00 PM"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Thai Treats",
+    "address": "707 Thai Street, Spicetown",
+    "tags": ["Thai", "Curry", "Spicy"],
+    "status": "open",
+    "creationDate": "2023-04-15",
+    "openCloseHours": {
+      "lunch": "12:30 PM - 2:30 PM",
+      "dinner": "7:00 PM - 10:00 PM"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Bagel Bliss",
+    "address": "808 Bagel Avenue, Britland",
+    "tags": ["Bagels", "Breakfast", "Bakery"],
+    "status": "open",
+    "creationDate": "2022-11-25",
+    "openCloseHours": {
+      "breakfast": "6:00 AM - 1:00 PM"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Wok & Roll",
+    "address": "909 Wok Street, Asianville",
+    "tags": ["Asian", "Wok", "Fast Casual"],
+    "status": "closed",
+    "creationDate": "2023-03-10",
+    "openCloseHours": {
+      "dinner": "5:30 PM - 9:00 PM"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Deli Delight",
+    "address": "1010 Deli Road, Sandwichville",
+    "tags": ["Deli", "Sandwiches", "Quick Bites"],
+    "status": "open",
+    "creationDate": "2022-08-01",
+    "openCloseHours": {
+      "lunch": "11:30 AM - 4:30 PM"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Fusion Flavors",
+    "address": "1111 Fusion Lane, Flavorville",
+    "tags": ["Fusion", "Creative Cuisine", "Artistic"],
+    "status": "open",
+    "creationDate": "2023-02-05",
+    "openCloseHours": {
+      "dinner": "7:00 PM - 11:00 PM"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Seafood Sensation",
+    "address": "1122 Ocean Avenue, Meatropolis",
+    "tags": ["Seafood", "Fresh Catch", "Waterfront"],
+    "status": "open",
+    "creationDate": "2023-08-15",
+    "openCloseHours": {
+      "lunch": "12:30 PM - 3:30 PM",
+      "dinner": "6:30 PM - 9:30 PM"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Viva la Pizza",
+    "address": "223 Margherita Street, Italianville",
+    "tags": ["Pizza", "Italian", "Vegetarian"],
+    "status": "open",
+    "creationDate": "2023-06-20",
+    "openCloseHours": {
+      "dinner": "4:00 PM - 10:00 PM"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Waffle Wonderland",
+    "address": "334 Syrup Lane, Britland",
+    "tags": ["Breakfast", "Waffles", "Brunch"],
+    "status": "open",
+    "creationDate": "2023-01-30",
+    "openCloseHours": {
+      "breakfast": "7:00 AM - 1:00 PM"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Mamma Mia Trattoria",
+    "address": "445 Pasta Plaza, Italianville",
+    "tags": ["Italian", "Pasta", "Romantic"],
+    "status": "closed",
+    "creationDate": "2023-05-01",
+    "openCloseHours": {
+      "dinner": "6:00 PM - 11:00 PM"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Sizzling Szechuan",
+    "address": "556 Spice Street, Asianville",
+    "tags": ["Chinese", "Szechuan", "Spicy"],
+    "status": "open",
+    "creationDate": "2022-10-05",
+    "openCloseHours": {
+      "lunch": "12:00 PM - 3:00 PM",
+      "dinner": "6:00 PM - 9:00 PM"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Falafel Fusion",
+    "address": "667 Pita Lane, Mediterraneanville",
+    "tags": ["Mediterranean", "Falafel", "Vegetarian"],
+    "status": "open",
+    "creationDate": "2023-03-18",
+    "openCloseHours": {
+      "breakfast": "9:00 AM - 11:00 AM",
+      "dinner": "6:00 PM - 8:00 PM"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Crispy Crepes",
+    "address": "778 Crepe Avenue, Frenchtown",
+    "tags": ["French", "Crepes", "Desserts"],
+    "status": "closed",
+    "creationDate": "2023-02-10",
+    "openCloseHours": {
+      "breakfast": "8:00 AM - 12:00 AM"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Burrito Bliss",
+    "address": "889 Burrito Street, Mexicoville",
+    "tags": ["Mexican", "Burritos", "Spicy"],
+    "status": "open",
+    "creationDate": "2022-12-10",
+    "openCloseHours": {
+      "lunch": "11:00 AM - 2:00 PM",
+      "dinner": "6:00 PM - 10:00 PM"
+    }
+  },
+  {
+    "id": 29,
+    "name": "The Green Bowl",
+    "address": "990 Salad Road, Fitcity",
+    "tags": ["Healthy", "Salads", "Fresh"],
+    "status": "open",
+    "creationDate": "2023-04-10",
+    "openCloseHours": {
+      "lunch": "12:00 PM - 3:00 PM",
+      "dinner": "6:00 PM - 8:00 PM"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Retro Ribs",
+    "address": "1100 Rib Street, Meatropolis",
+    "tags": ["Barbecue", "Ribs", "Nostalgic"],
+    "status": "closed",
+    "creationDate": "2022-11-05",
+    "openCloseHours": {
+      "lunch": "12:00 PM - 3:00 PM",
+      "dinner": "7:00 PM - 11:00 PM"
+    }
+  }
+]

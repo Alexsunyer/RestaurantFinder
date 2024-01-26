@@ -1,0 +1,29 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "jest --forceExit --watchAll",
+    "docker_dev": "npm i && docker system prune --volumes -f && (docker network create restaurant-finder || VER>NUL) && docker-compose -f docker-compose.dev.yml up --build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
