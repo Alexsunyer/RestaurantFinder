@@ -30,7 +30,7 @@ Download and open Docker Desktop (_only if you want to Dockerize your app_)
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Alexsunyer/RestaurantFinder.git
 ```
 
 Go to the backend directory
