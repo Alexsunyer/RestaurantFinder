@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "dev": "nodemon app.js",
+    "start": "nodemon app.js",
     "test": "jest --forceExit --watchAll",
     "docker_dev": "npm i && docker system prune --volumes -f && (docker network create restaurant-finder || VER>NUL) && docker-compose -f docker-compose.dev.yml up --build"
   },
