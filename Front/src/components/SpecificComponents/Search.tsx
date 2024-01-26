@@ -172,6 +172,7 @@ const useSearchLogic = ({ setSearchData }: SearchLogicProps) => {
 
   const mealHandleChange = useCallback(
     (event: React.MouseEvent<HTMLElement>, newMeal: NewMeal) => {
+      console.log(event);
       setMeal(newMeal);
     },
     []
